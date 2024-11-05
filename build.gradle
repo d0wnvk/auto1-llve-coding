@@ -2,7 +2,13 @@ plugins {
     id 'java'
 }
 
-group = 'org.example'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+group = 'org.auto1'
 version = '1.0-SNAPSHOT'
 
 repositories {
